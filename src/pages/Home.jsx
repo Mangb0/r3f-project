@@ -16,8 +16,11 @@ const Home = () => {
         </div>
         <div>
           <div>card2</div>
-          <h2>project title</h2>
+          <h2>ObjectsDissolve</h2>
           <h4>content</h4>
+          <div onClick={() => navigate("/objects-dissolve")}>
+            Go to ObjectsDissolve
+          </div>
         </div>
         <div>
           <div>card3</div>
