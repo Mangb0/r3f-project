@@ -24,8 +24,11 @@ const Home = () => {
         </div>
         <div>
           <div>card3</div>
-          <h2>project title</h2>
+          <h2>ScrollingAnimation</h2>
           <h4>content</h4>
+          <div onClick={() => navigate("/scrolling-animation")}>
+            Go to ScrollingAnimation
+          </div>
         </div>
         <div>
           <div>card4</div>
@@ -33,6 +36,7 @@ const Home = () => {
           <h4>content</h4>
         </div>
       </div>
+      <h1 className="font-serif text-2xl">Hello World</h1>
     </>
   );
 };
