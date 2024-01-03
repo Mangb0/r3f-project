@@ -12,7 +12,9 @@ export const FLOOR_HEIGHT = 2.3;
 export const NB_FLOORS = 3;
 
 export function Office(props) {
-  const { nodes, materials } = useGLTF("./models/Office.glb");
+  const { nodes, materials } = useGLTF(
+    "./models/ScrollingAnimation/Office.glb"
+  );
   const ref = useRef();
   const tl = useRef();
   const libraryRef = useRef();

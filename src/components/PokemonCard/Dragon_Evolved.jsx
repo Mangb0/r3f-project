@@ -9,7 +9,7 @@ import { useGLTF, useAnimations } from "@react-three/drei";
 export function DragonEvolved({ hovered, ...props }) {
   const group = useRef();
   const { nodes, materials, animations } = useGLTF(
-    "/models/Dragon_Evolved.gltf"
+    "/models/PokemonCard/Dragon_Evolved.gltf"
   );
   const { actions } = useAnimations(animations, group);
 

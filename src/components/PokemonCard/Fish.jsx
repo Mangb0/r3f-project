@@ -3,7 +3,9 @@ import { useGLTF, useAnimations } from "@react-three/drei";
 
 export function Fish({ hovered, ...props }) {
   const group = useRef();
-  const { nodes, materials, animations } = useGLTF("/models/Fish.gltf");
+  const { nodes, materials, animations } = useGLTF(
+    "/models/PokemonCard/Fish.gltf"
+  );
   const { actions } = useAnimations(animations, group);
 
   useEffect(() => {

@@ -8,7 +8,9 @@ import { useGLTF, useAnimations } from "@react-three/drei";
 
 export function Cactoro({ hovered, ...props }) {
   const group = useRef();
-  const { nodes, materials, animations } = useGLTF("/models/Cactoro.gltf");
+  const { nodes, materials, animations } = useGLTF(
+    "/models/PokemonCard/Cactoro.gltf"
+  );
   const { actions } = useAnimations(animations, group);
 
   useEffect(() => {
