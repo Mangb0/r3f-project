@@ -3,13 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mangb0.github.io/r3f-project",
+  "homepage": "https://mangb0.github.io/r3f-project/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "yarn build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
