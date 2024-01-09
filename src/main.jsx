@@ -5,7 +5,8 @@ import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter basename="/r3f-project">
+  // <BrowserRouter basename="/r3f-project"> when deploying to github pages
+  <BrowserRouter>
     <App />
   </BrowserRouter>
 );
