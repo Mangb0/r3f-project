@@ -8,17 +8,27 @@ const Home = () => {
       <div className="container">
         <div>
           <div>card1</div>
-          <h2>PokemonCard</h2>
+          <h2 className="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">
+            PokemonCard
+          </h2>
           <h4></h4>
-          <button onClick={() => navigate("/pokemon-card")}>
+          <div
+            className="inline-flex items-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            onClick={() => navigate("/pokemon-card")}
+          >
             Go to PokemonCard
-          </button>
+          </div>
         </div>
         <div>
           <div>card2</div>
-          <h2>ObjectsDissolve</h2>
+          <h2 className="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">
+            ObjectsDissolve
+          </h2>
           <h4>content</h4>
-          <div onClick={() => navigate("/objects-dissolve")}>
+          <div
+            className="inline-flex items-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            onClick={() => navigate("/objects-dissolve")}
+          >
             Go to ObjectsDissolve
           </div>
         </div>
@@ -32,7 +42,7 @@ const Home = () => {
             className="inline-flex items-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             onClick={() => navigate("/scrolling-animation")}
           >
-            ScrollingAnimation
+            Go to ScrollingAnimation
           </div>
         </div>
         <div>
@@ -45,11 +55,10 @@ const Home = () => {
             className="inline-flex items-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             onClick={() => navigate("/loading-animation")}
           >
-            LoadingAnimation
+            Go to LoadingAnimation
           </div>
         </div>
       </div>
-      <h1 className="font-serif text-2xl">Hello World</h1>
     </>
   );
 };
